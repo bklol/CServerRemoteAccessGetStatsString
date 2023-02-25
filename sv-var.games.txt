@@ -11,6 +11,11 @@
 					"signature" "CServerRemoteAccess::GetStatsString"
 					"read" "63"
 				}
+				"windows"
+				{
+					"signature" "CServerRemoteAccess::GetStatsString"
+					"read" "81"
+				}
 			}
 			
 			"host_frametime_stddeviation"
@@ -19,6 +24,11 @@
 				{
 					"signature" "CServerRemoteAccess::GetStatsString"
 					"read" "71"
+				}
+				"windows"
+				{
+					"signature" "CServerRemoteAccess::GetStatsString"
+					"read" "108"
 				}
 			}
 			
@@ -29,6 +39,11 @@
 					"signature" "CServerRemoteAccess::GetStatsString"
 					"read" "87"
 				}
+				"windows"
+				{
+					"signature" "CServerRemoteAccess::GetStatsString"
+					"read" "129"
+				}
 			}
 		}
 		"Signatures"
@@ -37,6 +52,7 @@
 			{
 				"library"	"engine"
 				"linux"		"\x55\x66\x0F\xEF\xC0\x89\xE5\x57\x56\x8D\x45\x2A\x53\x83\xEC\x40"
+				"windows"	"\x55\x8B\xEC\x83\xE4\xC0\x83\xEC\x38\x56\x57\x8D\x44\x24"
 			}
 		}
 	}
